@@ -1,111 +1,118 @@
-🖱️ Virtual Mouse — Advanced AI Hand Gesture Mouse Controller
+# 🖱️ Virtual Mouse — Advanced AI Hand Gesture Mouse Controller
 
 A powerful Touchless Virtual Mouse built with Python, OpenCV, and MediaPipe.
 Move your cursor, click, and control your screen just by moving your fingers — smooth, adjustable, and bug-free!
 
-
 ---
 
-✨ Features
 
-✅ Real-Time Hand Tracking — Fast & accurate using MediaPipe.
+## ✨ Features
 
-✅ Smooth Cursor Movement — Adjustable smoothing for a natural feel.
+✅ **Real-Time Hand Tracking** — Fast & accurate using MediaPipe.
 
-✅ Custom Mouse Speed Control — Fine-tune pointer speed live.
+✅ *Smooth Cursor Movement* — Adjustable smoothing for a natural feel.
 
-✅ Gesture-Based Clicking — Pinch your index finger & thumb to click.
+✅ *Custom Mouse Speed Control* — Fine-tune pointer speed live.
 
-✅ Live Trackbars — Control speed & smoothing while running.
+✅ *Gesture-Based Clicking* — Pinch your index finger & thumb to click.
 
-✅ Bug-Free & Stable — Fully tested for consistent performance.
+✅ *Live Trackbars* — Control speed & smoothing while running.
 
-✅ Modern UI Overlay — See real-time tracking with clear visuals.
+✅ *Bug-Free & Stable* — Fully tested for consistent performance.
 
-✅ Plug & Play — Works with any webcam. No extra hardware needed.
+✅ *Modern UI Overlay* — See real-time tracking with clear visuals.
 
-✅ Cross-Platform & Open Source
+✅ *Plug & Play* — Works with any webcam. No extra hardware needed.
 
-
-
----
-
-🚀 Technologies Used
-
-🐍 Python 3.11.9
-
-🎥 OpenCV — Video capturing & rendering.
-
-✋ MediaPipe — Advanced hand landmark detection.
-
-🖱️ PyAutoGUI — System cursor control.
-
+✅ *Cross-Platform & Open Source*
 
 
 ---
 
-⚙️ How It Works
+## 🚀 Technologies Used
 
-🖐️ Index Finger ➜ Cursor: Move your index finger to control the mouse.
+🐍 **Python 3.11.9**
 
-🤏 Pinch Gesture ➜ Click: Bring index finger & thumb tips close to perform a click.
+🎥 **OpenCV** — Video capturing & rendering.
 
-🎚️ Trackbars ➜ Control: Adjust Speed & Smoothness live.
+✋ **MediaPipe** — Advanced hand landmark detection.
 
-👀 Visual Feedback: See finger points, scale & smoothing overlayed on the webcam feed.
-
+🖱️ **PyAutoGUI** — System cursor control.
 
 
 ---
 
-▶️ How to Run
+## ⚙️ How It Works
 
-1️⃣ Clone the Repository
+🖐️ **Index Finger ➜ Cursor:** Move your index finger to control the mouse.
 
+🤏 **Pinch Gesture ➜ Click:** Bring index finger & thumb tips close to perform a click.
+
+🎚️ **Trackbars ➜ Control:** Adjust Speed & Smoothness live.
+
+👀 **Visual Feedback:** See finger points, scale & smoothing overlayed on the webcam feed.
+
+
+---
+
+## ▶️ How to Run
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/swaraaz-codes/Gesture-Control-Virtual-Mouse
 cd Gesture-Control-Virtual-Mouse
+```
 
-# (Optional but recommended) Create virtual environment
+### 2️⃣ Create Virtual Environment (Optional but Recommended)
+
+```bash
+# For Windows
 python -m venv env
-
-# Activate virtual environment
-# For Windows:
 env\Scripts\activate
 
-# For Linux/macOS:
+# For Linux/macOS
+python3 -m venv env
 source env/bin/activate
+```
 
-# Install dependencies
+### 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-# Run your Python file
+### 4️⃣ Run the Python File
+
+```bash
 python virtual_mouse.py
+```
 
 
 ---
 
-🎥 Live Demo
+## 🎥 Live Demo
 
+_(Coming Soon — Stay Tuned!)_
+
+
+---
+
+## 🚧 Future Scope
+
+- 🔗 Multi-hand control for advanced gestures.
+
+- 🎙️ Integrate voice commands.
+
+- 🖥️ Build a standalone app with GUI.
+
+- 📱 Optimize for mobile webcams.
 
 
 
 ---
 
-🚧 Future Scope
-
-🔗 Multi-hand control for advanced gestures.
-
-🎙️ Integrate voice commands.
-
-🖥️ Build a standalone app with GUI.
-
-📱 Optimize for mobile webcams.
-
-
-
----
-
-🏆 Why This Project?
+## 🏆 Why This Project?
 
 Perfect for learning Computer Vision, Hand Tracking, & Automation.
 
@@ -113,4 +120,31 @@ Beginner-friendly, well-commented code.
 
 Expandable for more gesture-based controls.
 
+
 ---
+
+## 👨‍💻 Author
+
+**Swaraaz Baidya**
+Passionate about **AI**, **Computer Vision** & **Robotics**.
+
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+
+---
+
+## 📬 Contact
+
+For any queries, suggestions, or collaborations, feel free to reach out:
+
+📧 **aiscientiest123@gmail.com**
+
+
+---
+
+**Enjoy Touchless Control! 👋🖱️**
